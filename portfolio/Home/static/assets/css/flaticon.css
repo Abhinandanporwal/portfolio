@@ -1,0 +1,95 @@
+/*
+  Flaticon icon font: Flaticon
+  Creation date: 07/05/2018 12:24
+*/
+
+/* Disable ::before for all flaticon-related classes */
+[class^="flaticon-"]:before, 
+[class*=" flaticon-"]:before {
+  content: none; /* Disable any unwanted content */
+  font-family: initial; /* Reset font-family */
+}
+
+/* Ensure ::after is also not interfering */
+[class^="flaticon-"]:after, 
+[class*=" flaticon-"]:after {
+  content: none;
+  font-family: initial;
+}
+
+/* Codeforces Icon */
+.flaticon-codeforces {
+  display: inline-block;
+  width: 24px; /* Icon size */
+  height: 24px;
+  background-image: url('/static/assets/profile-logo/codeforces-svgrepo-com.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* LeetCode Icon */
+.flaticon-leetcode {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('/static/assets/profile-logo/leetcode-svgrepo-com.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* CodeChef Icon */
+.flaticon-codechef {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('/static/assets/profile-logo/codechef-svgrepo-com.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* TopCoder Icon */
+.flaticon-topcoder {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('/static/assets/profile-logo/topcoder-svgrepo-com.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* HackerEarth Icon */
+.flaticon-hackerearth {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('/static/assets/profile-logo/hackerearth-svgrepo-com.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* GeeksforGeeks Icon */
+.flaticon-geeksofgeeks {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('/static/assets/profile-logo/geeksforgeeks-svgrepo-com.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* HackerRank Icon */
+.flaticon-hackerrank {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('/static/assets/profile-logo/vectorseek.com-Hackerrank Logo Vector.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
